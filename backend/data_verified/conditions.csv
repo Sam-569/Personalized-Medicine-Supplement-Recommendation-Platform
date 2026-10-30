@@ -1,0 +1,12 @@
+condition_code,condition_name,in_scope_note
+pregnancy,Pregnancy,Collect only if kept in scope
+breastfeeding,Breastfeeding,
+kidney_disease,Kidney disease,
+liver_disease,Liver disease,
+thyroid_disorder,Thyroid disorder,
+iron_overload,Iron overload / hemochromatosis,
+bleeding_disorder,Bleeding disorder,
+heart_disease,Heart disease,
+diabetes,Diabetes,
+hypertension,Hypertension,
+autoimmune_disease,Autoimmune disease,

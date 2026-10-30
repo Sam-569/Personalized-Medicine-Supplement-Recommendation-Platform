@@ -1,0 +1,261 @@
+supplement_id,diet_code,compat_status,source_id,source_ref,verification_status,last_reviewed_at,notes
+SUP001,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP001,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP002,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP002,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP003,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP003,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP004,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP004,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP005,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP005,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP006,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP006,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP007,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP007,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP008,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP008,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP009,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP009,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP010,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP010,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP011,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP011,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP012,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP012,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP013,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP013,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP014,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP014,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP015,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP015,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP016,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP016,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP017,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP017,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP018,vegetarian,incompatible,SRC02,DSLD Monograph,verified,2026-10-10,Animal/marine tissue origin; not suitable for vegetarian diet.
+SUP018,vegan,depends_on_product,SRC02,DSLD Monograph,verified,2026-10-10,Fish oil source is non-vegan; algal oil formulations are vegan.
+SUP019,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP019,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Cultured probiotic strains in non-dairy broth.
+SUP020,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP020,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP021,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP021,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP022,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP022,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP023,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP023,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP024,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP024,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP025,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP025,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP026,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP026,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP027,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP027,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP028,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP028,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP029,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP029,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP030,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP030,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP031,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP031,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP032,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP032,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP033,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP033,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP034,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP034,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP035,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP035,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP036,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP036,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP037,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP037,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP038,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP038,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP039,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP039,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP040,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP040,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP041,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP041,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP042,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP042,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP043,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP043,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP044,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP044,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP045,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP045,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP046,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP046,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP047,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP047,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP048,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP048,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP049,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP049,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP050,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP050,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP051,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP051,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP052,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP052,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP053,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP053,vegan,incompatible,SRC02,DSLD Monograph,verified,2026-10-10,Animal dairy/poultry origin; not suitable for vegan diet.
+SUP054,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP054,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP055,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP055,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP056,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP056,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP057,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP057,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP058,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP058,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP059,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP059,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP060,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP060,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP061,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP061,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP062,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP062,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP063,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP063,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP064,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP064,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP065,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP065,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP066,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP066,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP067,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP067,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP068,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP068,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP069,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP069,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP070,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP070,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP071,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP071,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP072,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP072,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP073,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP073,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP074,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP074,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP075,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP075,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP076,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP076,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP077,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP077,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP078,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP078,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP079,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP079,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP080,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP080,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP081,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP081,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP082,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP082,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP083,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP083,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP084,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP084,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP085,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP085,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP086,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP086,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP087,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP087,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP088,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP088,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP089,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP089,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP090,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP090,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP091,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP091,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP092,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP092,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP093,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP093,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP094,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP094,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP095,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP095,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP096,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP096,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP097,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP097,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP098,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP098,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP099,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP099,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP100,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP100,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP101,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP101,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP102,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP102,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP103,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP103,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP104,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP104,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP105,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP105,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP106,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP106,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP107,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP107,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP108,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP108,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP109,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP109,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP110,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP110,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP111,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP111,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP112,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP112,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP113,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP113,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP114,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP114,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP115,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP115,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP116,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP116,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP117,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP117,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP118,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP118,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP119,vegetarian,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Suitable for vegetarian diets.
+SUP119,vegan,compatible,SRC02,DSLD Monograph,verified,2026-10-10,Plant/mineral/synthetic synthesis; suitable for vegan diets.
+SUP120,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP120,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP121,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP121,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP122,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP122,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP123,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP123,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP124,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP124,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP125,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP125,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP126,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP126,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP127,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP127,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP128,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP128,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP129,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP129,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP130,vegetarian,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.
+SUP130,vegan,depends_on_product,,,needs_review,,Candidate formulation; product-dependent.

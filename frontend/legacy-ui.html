@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Supplement Guidance Platform</title><style>
+:root{--g:#0f766e;--bg:#f8fafc;--b:#e2e8f0}*{box-sizing:border-box}body{font:16px system-ui,sans-serif;margin:0;background:var(--bg);color:#0f172a}
+header{background:#fff;border-bottom:1px solid var(--b);padding:12px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}header b{color:var(--g)}
+nav a{cursor:pointer;margin-right:14px;color:#334155}nav a:hover{color:var(--g)}main{max-width:860px;margin:24px auto;padding:0 16px}
+.c{background:#fff;border:1px solid var(--b);border-radius:14px;padding:18px;margin-bottom:14px}h1{margin:.2em 0}label{display:block;margin:10px 0 4px;font-weight:600}
+input,select{width:100%;padding:9px;border:1px solid #cbd5e1;border-radius:8px}.chk label{display:inline-block;font-weight:400;margin:4px 12px 4px 0}.chk input{width:auto}
+button{background:var(--g);color:#fff;border:0;padding:10px 16px;border-radius:8px;cursor:pointer;font-size:15px}button:focus,input:focus,select:focus,a:focus{outline:3px solid #5eead4}
+.err{color:#b91c1c;margin:8px 0}.ok{color:var(--g)}.warn{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:10px;font-size:14px}small{color:#64748b}
+.tag{display:inline-block;background:#ccfbf1;border-radius:99px;padding:2px 10px;font-size:13px;margin:2px}.bar{height:8px;background:#e2e8f0;border-radius:9px}.bar i{display:block;height:8px;background:var(--g);border-radius:9px}
+</style></head><body><header><b>Supplement Guidance</b><nav id="nav"></nav></header><main id="app"></main>
+<script>
+const $=s=>document.querySelector(s);let T=localStorage.getItem("t");let O=null;
+const H=()=>({"Content-Type":"application/json",...(T?{Authorization:"Bearer "+T}:{})});
+async function api(m,u,b){const r=await fetch("/api"+u,{method:m,headers:H(),body:b?JSON.stringify(b):undefined});
+ if(r.status===401&&T){logout();throw Error("Session expired. Please log in again.")}
+ const d=await r.json().catch(()=>({}));if(!r.ok)throw Error(typeof d.detail==="string"?d.detail:(d.detail||[]).map(x=>x.loc.slice(-1)+": "+x.msg).join("; ")||"Request failed");return d}
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const DISC='<p class="warn">This platform provides health guidance and supplement information. It is not a medical diagnosis or prescription system and does not replace professional advice. Scores are project-defined relevance values, not medical probabilities.</p>';
+function nav(){$("#nav").innerHTML=T?'<a onclick="go(\'home\')">Dashboard</a><a onclick="go(\'profile\')">Profile</a><a onclick="go(\'cat\')">Catalogue</a><a onclick="go(\'hist\')">History</a><a onclick="logout()">Log out</a>':'<a onclick="go(\'home\')">Home</a><a onclick="go(\'cat\')">Catalogue</a><a onclick="go(\'auth\')">Log in / Register</a>'}
+function logout(){T=null;localStorage.removeItem("t");go("home")}
+async function go(p,a){nav();O=O||await api("GET","/options");({home,auth,profile,cat,hist,run:showRun,item})[p](a)}
+function home(){ if(!T)return $("#app").innerHTML=`<div class="c"><h1>Personalized, safety-aware supplement information</h1><p>Create a profile and receive explainable, rule-based supplement-type guidance from a curated knowledge base.</p><button onclick="go('auth')">Get Started</button></div>
+<div class="c"><h3>How it works</h3><ol><li>Complete your health profile</li><li>Safety filtering runs first (allergies, diet, conditions, medications)</li><li>Eligible items are scored with a Weighted Sum Model</li><li>Results above the threshold are ranked deterministically</li><li>Each result gets a rule-based explanation and is saved to your history</li></ol><p><small>No machine learning or AI is used to generate recommendations.</small></p></div>${DISC}`;
+ dash()}
+async function dash(){const p=await api("GET","/profile"),h=await api("GET","/recommendations");
+ $("#app").innerHTML=`<div class="c"><h1>Welcome</h1>${p?`<p class="ok">Profile saved</p><p>Goals: ${p.goals.map(g=>`<span class="tag">${esc(O.goals.find(x=>x[0]==g)?.[1]||g)}</span>`).join("")}</p><p>Diet: ${esc(p.dietary_preference)} · Activity: ${esc(p.activity_level)} · Sleep: ${esc(p.sleep_quality)}</p>`:"<p>Your profile is not complete yet.</p>"}
+ <button onclick="go('profile')">${p?"Update":"Complete"} profile</button> <button onclick="gen()" ${p?"":"disabled"}>Generate recommendations</button><div id="m" class="err"></div></div>
+ <div class="c"><h3>Recent runs (${h.length})</h3>${h.slice(0,3).map(r=>`<p><a href="#" onclick="go('run',${r.run_id});return false">Run #${r.run_id}</a> · ${new Date(r.created_at+"Z").toLocaleString()} · ${esc(r.status)}</p>`).join("")||"<small>No runs yet.</small>"}</div>${DISC}`}
+async function gen(){try{const r=await api("POST","/recommendations");go("run",r.run_id)}catch(e){$("#m").textContent=e.message}}
+function auth(){$("#app").innerHTML=`<div class="c"><h2>Account</h2><label for="e">Email</label><input id="e" type="email" autocomplete="email"><label for="p">Password (min 8 characters)</label><input id="p" type="password" autocomplete="current-password">
+ <p><button onclick="doAuth('login')">Log in</button> <button onclick="doAuth('register')" style="background:#334155">Register</button></p><div id="m" class="err" role="alert"></div></div>`}
+async function doAuth(k){try{const r=await api("POST","/auth/"+k,{email:$("#e").value,password:$("#p").value});T=r.token;localStorage.setItem("t",T);go("home")}catch(e){$("#m").textContent=e.message}}
+function checks(n,arr,sel=[]){return`<div class="chk">${arr.map(v=>`<label><input type="checkbox" name="${n}" value="${esc(v)}" ${sel.includes(v)?"checked":""}> ${esc(v.replaceAll("_"," "))}</label>`).join("")}</div>`}
+const sel=(id,arr,v)=>`<select id="${id}">${arr.map(x=>`<option ${x==v?"selected":""}>${x}</option>`).join("")}</select>`;
+async function profile(){const p=await api("GET","/profile")||{};
+ $("#app").innerHTML=`<div class="c"><h2>Health &amp; lifestyle profile</h2><label for="age">Age</label><input id="age" type="number" min="13" max="120" value="${p.age||""}">
+ <label>Goals (choose at least one)</label><div class="chk">${O.goals.map(g=>`<label><input type="checkbox" name="goals" value="${g[0]}" ${(p.goals||[]).includes(g[0])?"checked":""}> ${esc(g[1])}</label>`).join("")}</div>
+ <label for="diet">Dietary preference</label>${sel("diet",O.diets,p.dietary_preference)}<label for="act">Activity level</label>${sel("act",O.activity,p.activity_level)}<label for="slp">Sleep quality</label>${sel("slp",O.sleep,p.sleep_quality)}</div>
+ <div class="c"><h3>Safety information</h3><small>Requested only to exclude unsuitable supplements. Leave a group unticked if none apply.</small>
+ <label>Known allergies</label>${checks("al",O.allergens,p.allergies)}<label>Existing conditions</label>${checks("co",O.conditions,p.existing_conditions)}<label>Current medication types</label>${checks("me",O.medication_classes,p.current_medication_classes)}
+ <p><label style="font-weight:400"><input type="checkbox" id="conf" style="width:auto" ${p.safety_confirmed?"checked":""}> I have reviewed all three safety questions above (required to generate recommendations).</label></p>
+ <button onclick="save()">Save profile</button><div id="m" class="err" role="alert"></div></div>`}
+const vals=n=>[...document.querySelectorAll(`input[name=${n}]:checked`)].map(x=>x.value);
+async function save(){try{await api("PUT","/profile",{age:+$("#age").value,goals:vals("goals"),dietary_preference:$("#diet").value,allergies:vals("al"),existing_conditions:vals("co"),current_medication_classes:vals("me"),safety_confirmed:$("#conf").checked,activity_level:$("#act").value,sleep_quality:$("#slp").value});go("home")}catch(e){$("#m").textContent=e.message}}
+function showRun(id){api("GET","/recommendations/"+id).then(r=>{const sec=(t,a)=>a.length?`<div class="c"><h3>${t}</h3>${a.map(x=>`<p><b>${esc(x.name||x.supplement_id)}</b><br>${x.reasons.map(y=>"• "+esc(y[1])).join("<br>")}</p>`).join("")}</div>`:"";
+ $("#app").innerHTML=`<div class="c"><h2>Run #${r.run_id}</h2><small>${new Date(r.created_at+"Z").toLocaleString()} · dataset ${esc(r.dataset_version)} · scoring ${esc(r.scoring_version)} · threshold ${r.threshold}. Historical results reflect the information available at that time.</small></div>`+
+ (r.status=="withheld_incomplete_profile"?`<div class="c err">Recommendations withheld: please complete ${r.missing_fields.map(esc).join(", ")} (safety checks could not be completed).</div>`:
+ r.results.length?r.results.map(x=>`<div class="c"><h3>#${x.rank} ${esc(x.name)}</h3><p>Relevance score (project-defined): <b>${x.score.toFixed(2)}</b></p><div class="bar"><i style="width:${x.score*100}%"></i></div>
+ <small>${Object.entries(x.contributions).map(([k,v])=>k+": "+v.toFixed(3)).join(" · ")}</small><ul>${x.explanation.map(e=>`<li>${esc(e)}</li>`).join("")}</ul></div>`).join(""):
+ `<div class="c">No supplement met the configured rules for this profile. The threshold is not lowered automatically.</div>`)+
+ sec("Needs review (not recommended)",r.needs_review)+sec("Excluded by safety rules",r.excluded)+DISC})}
+async function hist(){const h=await api("GET","/recommendations");$("#app").innerHTML=`<div class="c"><h2>History</h2>${h.map(r=>`<p><a href="#" onclick="go('run',${r.run_id});return false">Run #${r.run_id}</a> · ${new Date(r.created_at+"Z").toLocaleString()} · ${esc(r.status)} · ${r.n_results} result(s) · ${esc(r.scoring_version)}</p>`).join("")||"<p>No previous recommendations.</p>"}</div>`}
+async function cat(){$("#app").innerHTML=`<div class="c"><h2>Supplement catalogue</h2><label for="q">Search</label><input id="q" oninput="list()"><div id="l"></div></div>${DISC}`;list()}
+async function list(){const d=await api("GET","/catalogue?q="+encodeURIComponent($("#q").value));$("#l").innerHTML=d.map(s=>`<p><a href="#" onclick="go('item','${s.supplement_id}');return false">${esc(s.supplement_name)}</a> <span class="tag">${esc(s.supplement_category)}</span> <span class="tag">${esc(s.verification_status)}</span></p>`).join("")}
+async function item(id){const s=await api("GET","/catalogue/"+id);$("#app").innerHTML=`<div class="c"><h2>${esc(s.supplement_name)}</h2><p>${esc(s.supplement_category)} · ${esc(s.active_ingredients)}</p><p>Status: <span class="tag">${esc(s.verification_status)}</span></p>
+ <p class="warn">${esc(s.note)}</p><p>Goal mappings: ${s.goal_mappings.length} · Safety rules: ${s.safety_rules.length} (verified: ${s.safety_rules.filter(r=>r.verification_status=="verified").length})</p>${s.source_url?`<a href="${esc(s.source_url)}" rel="noopener" target="_blank">Source (candidate link, verify)</a>`:""}<p><button onclick="go('cat')">Back</button></p></div>`}
+go("home");
+</script></body></html>

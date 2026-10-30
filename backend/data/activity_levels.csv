@@ -1,0 +1,5 @@
+activity_code,activity_name,ordinal
+sedentary,Sedentary,1
+light,Light,2
+moderate,Moderate,3
+high,High,4

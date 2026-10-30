@@ -1,0 +1,8 @@
+config_key,config_value,description,rule_version
+threshold,0.60,Keep if score >= threshold,v0.2-expanded
+float_tolerance,1e-9,Tolerance for threshold comparison and weight sum,v0.2-expanded
+tie_breaker_1,final_score desc,,v0.2-expanded
+tie_breaker_2,goal_match_score desc,,v0.2-expanded
+tie_breaker_3,supplement_id asc,Final deterministic key,v0.2-expanded
+dataset_version,v0.2-expanded,,v0.2-expanded
+scoring_version,wsm-1,,v0.2-expanded

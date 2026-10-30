@@ -1,0 +1,12 @@
+goal_id,goal_code,goal_name,description,is_active
+GL01,bone_health,Bone health,User-selectable goal,True
+GL02,energy_fatigue,Energy / fatigue,User-selectable goal,True
+GL03,immune_support,Immune support,User-selectable goal,True
+GL04,sleep_support,Sleep support,User-selectable goal,True
+GL05,heart_health,Heart health,User-selectable goal,True
+GL06,digestive_health,Digestive health,User-selectable goal,True
+GL07,muscle_exercise,Muscle / exercise performance,User-selectable goal,True
+GL08,stress_support,Stress support,User-selectable goal,True
+GL09,cognitive_function,Cognitive function,User-selectable goal,True
+GL10,skin_hair_nails,Skin / hair / nails,User-selectable goal,True
+GL11,general_nutrition,General nutrition gaps,User-selectable goal,True

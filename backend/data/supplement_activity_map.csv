@@ -1,0 +1,13 @@
+map_id,supplement_id,activity_code,match_type,match_score,source_id,source_ref,verification_status,rule_version,is_active
+ACT001,SUP024,high,direct,1.0,,,needs_review,v0.2-expanded,False
+ACT002,SUP024,moderate,partial,0.5,,,needs_review,v0.2-expanded,False
+ACT003,SUP013,high,partial,0.5,,,needs_review,v0.2-expanded,False
+ACT004,SUP012,high,partial,0.5,,,needs_review,v0.2-expanded,False
+ACT005,SUP053,high,direct,1.0,,,needs_review,v0.2-expanded,False
+ACT006,SUP053,moderate,partial,0.5,,,needs_review,v0.2-expanded,False
+ACT007,SUP056,high,direct,1.0,,,needs_review,v0.2-expanded,False
+ACT008,SUP075,high,direct,1.0,,,needs_review,v0.2-expanded,False
+ACT009,SUP075,moderate,partial,0.5,,,needs_review,v0.2-expanded,False
+ACT010,SUP062,high,partial,0.5,,,needs_review,v0.2-expanded,False
+ACT011,SUP063,high,direct,1.0,,,needs_review,v0.2-expanded,False
+ACT012,SUP067,high,direct,1.0,,,needs_review,v0.2-expanded,False

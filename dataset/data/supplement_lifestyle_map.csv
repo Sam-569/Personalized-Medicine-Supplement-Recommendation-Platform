@@ -1,0 +1,8 @@
+map_id,supplement_id,sleep_code,match_type,match_score,source_id,source_ref,verification_status,rule_version,is_active
+LIF001,SUP020,poor,direct,1.0,,,needs_review,v0.2-expanded,False
+LIF002,SUP013,poor,partial,0.5,,,needs_review,v0.2-expanded,False
+LIF003,SUP071,poor,partial,0.5,,,needs_review,v0.2-expanded,False
+LIF004,SUP098,poor,direct,1.0,,,needs_review,v0.2-expanded,False
+LIF005,SUP098,fair,partial,0.5,,,needs_review,v0.2-expanded,False
+LIF006,SUP116,poor,partial,0.5,,,needs_review,v0.2-expanded,False
+LIF007,SUP117,poor,partial,0.5,,,needs_review,v0.2-expanded,False

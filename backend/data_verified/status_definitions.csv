@@ -1,0 +1,9 @@
+status_value,applies_to,meaning
+verified,verification_status,Value checked against a cited source by a named reviewer; may drive the engine
+needs_review,verification_status,Candidate value (draft/proposed); NOT used by the engine until verified
+unknown,verification_status / compat status,No information found; NEVER treated as safe or compatible
+not_applicable,verification_status,Field legitimately does not apply to this record
+rejected,verification_status,Reviewed and rejected
+compatible,compat_status,Verified compatible
+incompatible,compat_status,Verified incompatible -> exclude
+depends_on_product,compat_status,Depends on the specific product/formulation -> review

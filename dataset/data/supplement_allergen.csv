@@ -1,0 +1,11 @@
+supplement_id,allergen_code,relation,source_id,source_ref,verification_status,is_active,notes
+SUP018,fish,may_contain_depending_on_source,,,needs_review,False,Fish-oil derived formulations contain fish allergen; algal oil formulations do not.
+SUP019,milk,may_contain_depending_on_product,,,needs_review,False,Dairy culture broth residues in selected commercial probiotic strains.
+SUP044,fish,contains,,,needs_review,False,Derived from Atlantic cod liver tissues.
+SUP045,shellfish,contains,,,needs_review,False,Derived from Antarctic krill crustacean species.
+SUP053,milk,contains,,,needs_review,False,Derived from bovine milk dairy fraction.
+SUP054,milk,contains,,,needs_review,False,Derived from bovine milk dairy fraction.
+SUP055,milk,contains,,,needs_review,False,Primary phosphoprotein fraction of bovine dairy milk.
+SUP057,soy,contains,,,needs_review,False,Derived from glycine max soybean protein isolate.
+SUP060,egg,contains,,,needs_review,False,Derived from avian poultry egg albumen.
+SUP127,shellfish,may_contain_depending_on_source,,,needs_review,False,Commercial glucosamine sulfate is frequently derived from marine shellfish exoskeletons.

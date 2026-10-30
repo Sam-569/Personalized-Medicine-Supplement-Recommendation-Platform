@@ -1,0 +1,11 @@
+supplement_id,allergen_code,relation,source_id,source_ref,verification_status,is_active,notes
+SUP018,fish,may_contain_depending_on_source,SRC02,DSLD Product Labels Cross-Reference,verified,True,Fish-oil derived formulations contain fish allergen; algal oil formulations do not.
+SUP019,milk,may_contain_depending_on_product,SRC02,DSLD Product Labels Cross-Reference,verified,True,Dairy culture broth residues in selected commercial probiotic strains.
+SUP044,fish,contains,SRC01,ODS Cod Liver Oil Monograph,verified,True,Derived from Atlantic cod liver tissues.
+SUP045,shellfish,contains,SRC01,ODS Krill Oil Monograph,verified,True,Derived from Antarctic krill crustacean species.
+SUP053,milk,contains,SRC01,ODS Whey Monograph,verified,True,Derived from bovine milk dairy fraction.
+SUP054,milk,contains,SRC01,ODS Whey Monograph,verified,True,Derived from bovine milk dairy fraction.
+SUP055,milk,contains,SRC01,ODS Casein Monograph,verified,True,Primary phosphoprotein fraction of bovine dairy milk.
+SUP057,soy,contains,SRC05,NCCIH Soy Monograph,verified,True,Derived from glycine max soybean protein isolate.
+SUP060,egg,contains,SRC02,DSLD Egg White Monograph,verified,True,Derived from avian poultry egg albumen.
+SUP127,shellfish,may_contain_depending_on_source,SRC06,MedlinePlus Glucosamine Monograph,verified,True,Commercial glucosamine sulfate is frequently derived from marine shellfish exoskeletons.

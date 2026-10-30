@@ -1,0 +1,6 @@
+criterion_id,criterion_code,criterion_name,weight,minimum_value,maximum_value,description,rule_version,is_active
+C1,G,Goal match,0.4,0,1,Max over user goals of mapped match_score,v0.2-expanded,True
+C2,D,Dietary fit,0.2,0,1,See criterion_value_rules,v0.2-expanded,True
+C3,A,Activity match,0.15,0,1,From supplement_activity_map,v0.2-expanded,True
+C4,L,Lifestyle/sleep match,0.15,0,1,From supplement_lifestyle_map,v0.2-expanded,True
+C5,H,Previous usage,0.1,0,1,See criterion_value_rules; NOT evidence of safety,v0.2-expanded,True

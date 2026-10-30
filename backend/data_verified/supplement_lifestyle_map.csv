@@ -1,0 +1,8 @@
+map_id,supplement_id,sleep_code,match_type,match_score,source_id,source_ref,verification_status,rule_version,is_active
+LIF001,SUP020,poor,direct,1.0,SRC01,ODS Sleep and Circadian Factors,verified,v0.2-expanded,True
+LIF002,SUP013,poor,partial,0.5,SRC01,ODS Sleep and Circadian Factors,verified,v0.2-expanded,True
+LIF003,SUP071,poor,partial,0.5,SRC06,MedlinePlus Sleep Physiology,verified,v0.2-expanded,True
+LIF004,SUP098,poor,direct,1.0,SRC05,NCCIH Valerian Sleep Monograph,verified,v0.2-expanded,True
+LIF005,SUP098,fair,partial,0.5,SRC05,NCCIH Valerian Sleep Monograph,verified,v0.2-expanded,True
+LIF006,SUP116,poor,partial,0.5,,,needs_review,v0.2-expanded,False
+LIF007,SUP117,poor,partial,0.5,,,needs_review,v0.2-expanded,False

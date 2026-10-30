@@ -1,0 +1,13 @@
+map_id,supplement_id,activity_code,match_type,match_score,source_id,source_ref,verification_status,rule_version,is_active
+ACT001,SUP024,high,direct,1.0,SRC01,ODS Athletic Performance Guidelines,verified,v0.2-expanded,True
+ACT002,SUP024,moderate,partial,0.5,SRC01,ODS Athletic Performance Guidelines,verified,v0.2-expanded,True
+ACT003,SUP013,high,partial,0.5,SRC01,ODS Athletic Performance Guidelines,verified,v0.2-expanded,True
+ACT004,SUP012,high,partial,0.5,SRC01,ODS Athletic Performance Guidelines,verified,v0.2-expanded,True
+ACT005,SUP053,high,direct,1.0,SRC01,ODS Athletic Performance Guidelines,verified,v0.2-expanded,True
+ACT006,SUP053,moderate,partial,0.5,SRC01,ODS Athletic Performance Guidelines,verified,v0.2-expanded,True
+ACT007,SUP056,high,direct,1.0,SRC02,DSLD Athletic Guidelines,verified,v0.2-expanded,True
+ACT008,SUP075,high,direct,1.0,SRC02,DSLD Athletic Hydration,verified,v0.2-expanded,True
+ACT009,SUP075,moderate,partial,0.5,SRC02,DSLD Athletic Hydration,verified,v0.2-expanded,True
+ACT010,SUP062,high,partial,0.5,SRC01,ODS Athletic Performance Guidelines,verified,v0.2-expanded,True
+ACT011,SUP063,high,direct,1.0,,,needs_review,v0.2-expanded,False
+ACT012,SUP067,high,direct,1.0,,,needs_review,v0.2-expanded,False

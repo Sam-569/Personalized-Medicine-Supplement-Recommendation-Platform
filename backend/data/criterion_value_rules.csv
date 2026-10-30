@@ -1,0 +1,17 @@
+rule_id,criterion_code,condition,value,note,rule_version
+V01,G,direct match for any selected goal,1.0,project-defined,v0.2-expanded
+V02,G,partial match only,0.5,project-defined,v0.2-expanded
+V03,G,no mapping,0.0,project-defined,v0.2-expanded
+V04,D,user omnivore OR no restriction,1.0,project-defined,v0.2-expanded
+V05,D,compat_status=compatible & verified,1.0,project-defined,v0.2-expanded
+V06,D,compat_status=incompatible,0.0,also handled by safety filter (exclude),v0.2-expanded
+V07,D,"compat_status in (unknown, depends_on_product)",0.0,also flagged require_review,v0.2-expanded
+V08,A,direct activity match,1.0,project-defined,v0.2-expanded
+V09,A,partial activity match,0.5,project-defined,v0.2-expanded
+V10,A,no mapping,0.0,project-defined (assumption: no mapping = no match),v0.2-expanded
+V11,L,direct sleep match,1.0,project-defined,v0.2-expanded
+V12,L,partial sleep match,0.5,project-defined,v0.2-expanded
+V13,L,no mapping,0.0,project-defined,v0.2-expanded
+V14,H,never used,0.5,neutral; project-defined assumption,v0.2-expanded
+V15,H,"used before, no reported reaction",1.0,"preference continuity only, not proof of tolerance",v0.2-expanded
+V16,H,"used before, reaction reported",0.0,also triggers require_review,v0.2-expanded

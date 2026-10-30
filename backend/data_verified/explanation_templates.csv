@@ -1,0 +1,12 @@
+template_id,criterion_code,match_value,template_text,required_attribute,rule_version,is_active
+T01,G,1.0,Directly matches the selected goal: {goal_name}.,supplement_goal_map.verified,v0.2-expanded,True
+T02,G,0.5,Partially or indirectly related to the selected goal: {goal_name}.,supplement_goal_map.verified,v0.2-expanded,True
+T03,D,1.0,Compatible with the recorded dietary preference according to the verified data.,supplement_diet_compat.verified,v0.2-expanded,True
+T04,A,1.0,Matches the user's configured activity category.,supplement_activity_map.verified,v0.2-expanded,True
+T05,A,0.5,Partially matches the user's configured activity category.,supplement_activity_map.verified,v0.2-expanded,True
+T06,L,1.0,Matches the user's recorded sleep/lifestyle category.,supplement_lifestyle_map.verified,v0.2-expanded,True
+T07,L,0.5,Partially matches the user's recorded sleep/lifestyle category.,supplement_lifestyle_map.verified,v0.2-expanded,True
+T08,H,1.0,You previously reported using this supplement without a reported reaction. This does not confirm it is safe for you.,user_profile.previous_usage,v0.2-expanded,True
+T09,SAFETY,pass,Passed the configured safety checks. This does not guarantee medical safety.,safety_rules.verified,v0.2-expanded,True
+T10,SAFETY,review,Needs review before it can be suggested: {safety_message},safety_rules,v0.2-expanded,True
+T11,LIMIT,all,"This is general educational guidance, not medical advice. Scores reflect project-defined rules, not clinical effectiveness.",,v0.2-expanded,True

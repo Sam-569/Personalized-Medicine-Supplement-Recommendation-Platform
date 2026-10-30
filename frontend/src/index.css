@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-canvas: #F7F7F2;
+    --bg-surface: #FFFFFF;
+    --color-primary: #244B38;
+    --color-primary-hover: #1B382A;
+    --color-sage: #A8B9A2;
+    --color-text-main: #252923;
+    --color-text-muted: #73796F;
+    --color-border: #E5E5DD;
+  }
+
+  html {
+    background-color: #F7F7F2;
+    color: #252923;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F7F7F2;
+    color: #252923;
+    min-height: 100vh;
+  }
+
+  /* Clear and restrained typography hierarchy */
+  h1, .h1 {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #252923;
+  }
+
+  h2, .h2 {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: #252923;
+  }
+
+  h3, .h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: #252923;
+  }
+
+  h4, .h4 {
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+    font-weight: 600;
+    color: #252923;
+  }
+
+  p {
+    line-height: 1.6;
+    color: inherit;
+  }
+
+  /* Accessible focus indicators across interactive controls */
+  :focus-visible {
+    outline: 2px solid #244B38;
+    outline-offset: 2px;
+  }
+
+  /* Text selection */
+  ::selection {
+    background-color: #EEF3EE;
+    color: #244B38;
+  }
+}
